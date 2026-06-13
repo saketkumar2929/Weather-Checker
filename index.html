@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🌦 Weather Dashboard</h1>
+
+<div class="search-box">
+<input type="text" id="city" placeholder="Enter City Name">
+<button id="searchBtn">
+<i class="fas fa-search"></i>
+</button>
+</div>
+
+<div class="weather-card" id="weatherCard">
+
+<h2 id="cityName">Search a City</h2>
+
+<img id="weatherIcon" src="" alt="">
+
+<h1 id="temp">--°C</h1>
+
+<p id="condition">Weather Condition</p>
+
+<div class="details">
+
+<div>
+<i class="fas fa-water"></i>
+<p id="humidity">--%</p>
+<span>Humidity</span>
+</div>
+
+<div>
+<i class="fas fa-wind"></i>
+<p id="wind">-- km/h</p>
+<span>Wind</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
